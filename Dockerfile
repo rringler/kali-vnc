@@ -13,7 +13,7 @@ ENV USER root
 
 # Run startup script
 RUN apt-get update && \
-    apt-get install -y usbutils python tightvncserver x11vnc xfce4 && \
+    apt-get install -y git python tightvncserver x11vnc xfce4 && \
     git clone https://github.com/novnc/noVNC.git /root/noVNC && \
     git clone https://github.com/novnc/websockify.git /root/noVNC/utils/websockify && \
     chmod 0755 /startup.sh && \
