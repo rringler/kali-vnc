@@ -1,4 +1,4 @@
-FROM kalilinux/kali-linux-docker
+FROM kalilinux/kali-rolling
 MAINTAINER Ryan Ringler <rringler@gmail.com>
 
 # Add Xwindows configuration
